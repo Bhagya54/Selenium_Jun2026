@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-30T11:51:56 IST" name="Default suite" finished-at="2026-06-30T11:52:15 IST" duration-ms="19646">
+    <groups>
+    </groups>
+    <test started-at="2026-06-30T11:51:56 IST" name="Default test" finished-at="2026-06-30T11:52:15 IST" duration-ms="19646">
+      <class name="testngTestcases.Parameterization_DataProvider">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testngTestcases.Parameterization_DataProvider@5fe94a96]" started-at="2026-06-30T11:51:56 IST" name="launchBrowser" finished-at="2026-06-30T11:52:01 IST" duration-ms="5191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String)[pri:0, instance:testngTestcases.Parameterization_DataProvider@5fe94a96]" started-at="2026-06-30T11:52:01 IST" name="doLogin" data-provider="dp" finished-at="2026-06-30T11:52:02 IST" duration-ms="1531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testngTestcases.Parameterization_DataProvider@5fe94a96]" started-at="2026-06-30T11:52:02 IST" name="closeBrowser" finished-at="2026-06-30T11:52:03 IST" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testngTestcases.Parameterization_DataProvider@5fe94a96]" started-at="2026-06-30T11:52:03 IST" name="launchBrowser" finished-at="2026-06-30T11:52:06 IST" duration-ms="3421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String)[pri:0, instance:testngTestcases.Parameterization_DataProvider@5fe94a96]" started-at="2026-06-30T11:52:06 IST" name="doLogin" data-provider="dp" finished-at="2026-06-30T11:52:08 IST" duration-ms="1760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testngTestcases.Parameterization_DataProvider@5fe94a96]" started-at="2026-06-30T11:52:08 IST" name="closeBrowser" finished-at="2026-06-30T11:52:09 IST" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testngTestcases.Parameterization_DataProvider@5fe94a96]" started-at="2026-06-30T11:52:09 IST" name="launchBrowser" finished-at="2026-06-30T11:52:13 IST" duration-ms="3725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String)[pri:0, instance:testngTestcases.Parameterization_DataProvider@5fe94a96]" started-at="2026-06-30T11:52:13 IST" name="doLogin" data-provider="dp" finished-at="2026-06-30T11:52:15 IST" duration-ms="1508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testngTestcases.Parameterization_DataProvider@5fe94a96]" started-at="2026-06-30T11:52:15 IST" name="closeBrowser" finished-at="2026-06-30T11:52:15 IST" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testngTestcases.Parameterization_DataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

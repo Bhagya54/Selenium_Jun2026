@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BeforeSuite" parallel="tests">
+
+	<test thread-count="5" name="Parameterization Using XML_Chrome">
+		<parameter name="browserName" value="chrome"></parameter>
+		<parameter name="url" value="https://facebook.com"></parameter>
+		<classes>
+			<class name="testngTestcases.Parameterization_xml" />
+		</classes>
+	</test> <!-- BeforeTest -->
+
+	<test thread-count="5" name="Parameterization Using XML_Firefox">
+		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="url" value="https://redbus.com"></parameter>
+		<classes>
+			<class name="testngTestcases.Parameterization_xml" />
+		</classes>
+	</test> <!-- BeforeTest -->
+
+</suite>
+

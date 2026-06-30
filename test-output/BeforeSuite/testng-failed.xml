@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BeforeSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Assertion and Annotation(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testngTestcases.Assertions">
+        <methods>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- testngTestcases.Assertions -->
+    </classes>
+  </test> <!-- Assertion and Annotation(failed) -->
+</suite> <!-- Failed suite [BeforeSuite] -->
