@@ -10,6 +10,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import utility.ExcelReader;
+
 public class Parameterization_DataProvider {
 	
 	WebDriver driver;
@@ -36,15 +38,29 @@ public class Parameterization_DataProvider {
 	
 	@DataProvider(name="dp")
 	public Object[][] getData(){
-		Object[][] data = new Object[3][2];
-		data[0][0]="username1";
-		data[0][1]="password1";
-				
-		data[1][0]="username2";
-		data[1][1]="password2";
 		
-		data[2][0]="username3";
-		data[2][1]="password3";
+		ExcelReader excel = new ExcelReader("./src/test/resources/excelData/TestData.xlsx");
+		String sheetName="data";
+		int noOfRows=excel.getRowCount(sheetName);
+		int noOfCols=excel.getColumnCount(sheetName);
+		System.out.println("RowCount: " + noOfRows);//4
+		System.out.println("Col Count: " + noOfCols);//2
+		Object[][] data = new Object[noOfRows-1][noOfCols];
+		
+		for(int row=2;row<=noOfRows;row++) {//row=3
+			for(int col=0;col<noOfCols;col++) {//col=0
+				data[row-2][col]=excel.getCellData(sheetName,col,row);
+			}
+		}
+		
+//		data[0][0]=excel.getCellData(sheetName,0,2);
+//		data[0][1]=excel.getCellData(sheetName,1,2);
+//				
+//		data[1][0]=excel.getCellData(sheetName,0,3);
+//		data[1][1]=excel.getCellData(sheetName,1,3);
+//		
+//		data[2][0]=excel.getCellData(sheetName,0,4);
+//		data[2][1]=excel.getCellData(sheetName,1,4);
 		
 		return data;
 	}

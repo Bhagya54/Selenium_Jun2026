@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-30T11:51:56 IST" name="Default suite" finished-at="2026-06-30T11:52:15 IST" duration-ms="19646">
+  <suite started-at="2026-07-02T10:54:37 IST" name="Default suite" finished-at="2026-07-02T10:55:00 IST" duration-ms="22640">
     <groups>
     </groups>
-    <test started-at="2026-06-30T11:51:56 IST" name="Default test" finished-at="2026-06-30T11:52:15 IST" duration-ms="19646">
-      <class name="testngTestcases.Parameterization_DataProvider">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testngTestcases.Parameterization_DataProvider@5fe94a96]" started-at="2026-06-30T11:51:56 IST" name="launchBrowser" finished-at="2026-06-30T11:52:01 IST" duration-ms="5191" status="PASS">
+    <test started-at="2026-07-02T10:54:37 IST" name="Default test" finished-at="2026-07-02T10:55:00 IST" duration-ms="22640">
+      <class name="ReadPropertiesFile.RealExample">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ReadPropertiesFile.RealExample@1d296da]" started-at="2026-07-02T10:54:39 IST" name="launchBrowser" finished-at="2026-07-02T10:54:45 IST" duration-ms="5823" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String)[pri:0, instance:testngTestcases.Parameterization_DataProvider@5fe94a96]" started-at="2026-06-30T11:52:01 IST" name="doLogin" data-provider="dp" finished-at="2026-06-30T11:52:02 IST" duration-ms="1531" status="PASS">
+        <test-method signature="doLogin(java.lang.String,java.lang.String)[pri:0, instance:ReadPropertiesFile.RealExample@1d296da]" started-at="2026-07-02T10:54:45 IST" name="doLogin" data-provider="dp" finished-at="2026-07-02T10:54:47 IST" duration-ms="2139" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testngTestcases.Parameterization_DataProvider@5fe94a96]" started-at="2026-06-30T11:52:02 IST" name="closeBrowser" finished-at="2026-06-30T11:52:03 IST" duration-ms="578" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ReadPropertiesFile.RealExample@1d296da]" started-at="2026-07-02T10:54:47 IST" name="closeBrowser" finished-at="2026-07-02T10:54:48 IST" duration-ms="870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testngTestcases.Parameterization_DataProvider@5fe94a96]" started-at="2026-06-30T11:52:03 IST" name="launchBrowser" finished-at="2026-06-30T11:52:06 IST" duration-ms="3421" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ReadPropertiesFile.RealExample@1d296da]" started-at="2026-07-02T10:54:48 IST" name="launchBrowser" finished-at="2026-07-02T10:54:52 IST" duration-ms="3900" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String)[pri:0, instance:testngTestcases.Parameterization_DataProvider@5fe94a96]" started-at="2026-06-30T11:52:06 IST" name="doLogin" data-provider="dp" finished-at="2026-06-30T11:52:08 IST" duration-ms="1760" status="PASS">
+        <test-method signature="doLogin(java.lang.String,java.lang.String)[pri:0, instance:ReadPropertiesFile.RealExample@1d296da]" started-at="2026-07-02T10:54:52 IST" name="doLogin" data-provider="dp" finished-at="2026-07-02T10:54:53 IST" duration-ms="1586" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,15 +51,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testngTestcases.Parameterization_DataProvider@5fe94a96]" started-at="2026-06-30T11:52:08 IST" name="closeBrowser" finished-at="2026-06-30T11:52:09 IST" duration-ms="1259" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ReadPropertiesFile.RealExample@1d296da]" started-at="2026-07-02T10:54:53 IST" name="closeBrowser" finished-at="2026-07-02T10:54:54 IST" duration-ms="597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testngTestcases.Parameterization_DataProvider@5fe94a96]" started-at="2026-06-30T11:52:09 IST" name="launchBrowser" finished-at="2026-06-30T11:52:13 IST" duration-ms="3725" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ReadPropertiesFile.RealExample@1d296da]" started-at="2026-07-02T10:54:54 IST" name="launchBrowser" finished-at="2026-07-02T10:54:58 IST" duration-ms="4182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String)[pri:0, instance:testngTestcases.Parameterization_DataProvider@5fe94a96]" started-at="2026-06-30T11:52:13 IST" name="doLogin" data-provider="dp" finished-at="2026-06-30T11:52:15 IST" duration-ms="1508" status="PASS">
+        <test-method signature="doLogin(java.lang.String,java.lang.String)[pri:0, instance:ReadPropertiesFile.RealExample@1d296da]" started-at="2026-07-02T10:54:58 IST" name="doLogin" data-provider="dp" finished-at="2026-07-02T10:54:59 IST" duration-ms="1064" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,11 +75,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testngTestcases.Parameterization_DataProvider@5fe94a96]" started-at="2026-06-30T11:52:15 IST" name="closeBrowser" finished-at="2026-06-30T11:52:15 IST" duration-ms="556" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ReadPropertiesFile.RealExample@1d296da]" started-at="2026-07-02T10:54:59 IST" name="closeBrowser" finished-at="2026-07-02T10:55:00 IST" duration-ms="693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- testngTestcases.Parameterization_DataProvider -->
+      </class> <!-- ReadPropertiesFile.RealExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

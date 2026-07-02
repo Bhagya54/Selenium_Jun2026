@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngTestcases.DependsOn">
+      <class name="testngTestcases.Parameterization_DataProvider">
         <methods>
-          <include name="doUserReg"/>
-          <include name="doopenBrowser"/>
+          <include name="closeBrowser"/>
           <include name="doLogin"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- testngTestcases.DependsOn -->
+      </class> <!-- testngTestcases.Parameterization_DataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
